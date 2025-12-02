@@ -1,6 +1,13 @@
 import java.util.Map;
 import java.util.HashMap;
 
+/**
+ * Program to count duplicate characters in a string using Map
+ * Time Complexity: O(n)
+ * Space Complexity: O(n) - Map size grows with input size
+ * Author: RaviKumar K
+ * Using collection framework (Map)
+ */
 class CountDupCharMap{
 
   public static void main(String[] args){

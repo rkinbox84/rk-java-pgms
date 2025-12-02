@@ -1,3 +1,13 @@
+
+/**
+ * Program to count duplicate characters in a string using ASCII values
+ * Assumption: Input string contains only ASCII characters
+ * Time Complexity: O(n)
+ * Space Complexity: O(1) - Fixed size array of 256
+ * Author: RaviKumar K
+ * Without using any collection framework
+ */
+
 class CountDupCharAscii{
  public static void main(String[] args){
    String inpStr="This is java pgm";
@@ -18,6 +28,7 @@ class CountDupCharAscii{
      if(asciiArray[i]>0 && (char)i != ' '){
 	   System.out.println((char)i + ": " + asciiArray[i]);
 	 }
+   
    }
  
  }
