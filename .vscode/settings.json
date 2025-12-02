@@ -1,5 +1,7 @@
 {
   "files.exclude": {
-    "**/*.class": true
+    "**/*.class": true,
+    "**/ArraysAndStrings/*.class": true,
+    "**/ArraysAndStrings/**/*.class": true
   }
 }
